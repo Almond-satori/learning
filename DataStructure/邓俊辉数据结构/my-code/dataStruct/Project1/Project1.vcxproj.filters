@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\db5">
+      <UniqueIdentifier>{e9d46f2a-32f4-45f3-a708-bd72b62e75f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\db2">
+      <UniqueIdentifier>{39fd4766-1337-4365-896a-95f6b2b7dcb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\db3">
+      <UniqueIdentifier>{071982ce-73b7-4f0a-afd3-07ef21214c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\db4">
+      <UniqueIdentifier>{006aa92a-4baf-4e75-aad9-362906845d8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="db5\myBinNode.hpp">
+      <Filter>源文件\db5</Filter>
+    </ClInclude>
+    <ClInclude Include="db1-4\2-1Vector.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db1-4\4-1-stack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db1-4\4-2-queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db1-4\List.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db1-4\ListNode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db6\Graph.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db6\adjacencyMatrix.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db1-4\release.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db7\entry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db7\BST.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db7\AVL.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db8\splay\Splay.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db8\B-tree\BTNode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db8\B-tree\BTree.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db8\RedBlackTree\RedBlackTree.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\dictionary.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\skiplist\Skiplist.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\Entry.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\QuadList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\QuadlistNode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\HashTable\hashTable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db9\HashTable\BitMap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db10\priorityQueue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="db10\PQ_ComplHeap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="db5\myBinTree.hpp">
+      <Filter>源文件\db5</Filter>
+    </ClCompile>
+    <ClCompile Include="db1-4\EightQueens.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db1-4\maze.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db6\AMTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db5\BinTreeTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db7\TestBST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db7\TestAVL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db8\splay\TestSplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="db8\B-tree\BtreeTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
